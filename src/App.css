@@ -1,0 +1,341 @@
+.image-container
+{
+  background-image: url('./Components/Images/Property-Insurance.jpg');
+  background-size: cover; 
+  background-position: center;
+  opacity: 0.9;
+  
+}
+.bottom-img
+{
+  background-image: url('./Components/Images/Insurance-PNG-Images.png');
+  /* background-size: cover; 
+  background-position: center; */
+  opacity: 0.9;
+}
+.mbs
+{
+  margin-bottom:260px;
+}
+.bb
+{
+  box-shadow: 0 0 10px blue;
+  
+}
+.size
+{
+  width: 25px;
+  height: 25px;
+}
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-2
+{
+  background-color: #bae6fd;
+}
+.securitylen
+{
+  margin-left: 300px;
+}
+.mbs-2
+{
+  margin-bottom: 500px;
+}
+.primum-box
+{
+  width: 200px;
+}
+.popup-container {
+  position: fixed;
+  top: 10;
+  left: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+}
+
+.button-group {
+  margin-top: 15px;
+  text-align: right;
+}
+/* Container styling */
+.form-container {
+  max-width: 400px; /* Reduced max-width */
+  margin: 0 auto;
+  padding: 15px; /* Reduced padding */
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Personal and Property details section styling */
+.personal-details,
+.property-details {
+  margin-bottom: 15px; /* Reduced margin-bottom */
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 3px; /* Reduced margin-bottom */
+}
+
+/* Input and Select field styling */
+input[type="text"],
+select {
+  width: 45%; /* Reduced width */
+  padding: 6px; /* Reduced padding */
+  margin-bottom: 8px; /* Reduced margin-bottom */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Styling for specific fields */
+#panCardTitle,
+#fullName,
+#dob,
+#email,
+#mobile {
+  width: 100%; /* Set width to 100% for these fields */
+}
+
+/* Margin adjustment for specific fields */
+#panCardTitle {
+  margin-bottom: 8px; /* Reduced margin-bottom */
+}
+
+#dob {
+  margin-bottom: 8px; /* Reduced margin-bottom */
+}
+
+/* Button styling */
+button {
+  padding: 8px 16px; /* Reduced padding */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-details-column {
+  flex: 1;
+  padding: 20px;
+  background-color: hwb(177 12% 19%);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.user-details-column h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.user-details-column div {
+  margin-bottom: 10px;
+}
+
+.details-column {
+  flex: 1;
+  padding: 20px;
+  background-color: hwb(0 86% 11%);
+  border-radius: 8px;
+}
+
+.details-column h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  background-color: #0f7021;
+  text-decoration-color: aqua;
+}
+
+.details-column label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.details-column input,
+.details-column select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.Property-column {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px; /* Adjust as needed */
+  padding: 20px;
+}
+
+h3 {
+  text-align: center;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+}
+
+.user-details-column {
+  background-color: #f0f0f0; /* Change as desired */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+}
+
+.user-details-column h1 {
+  color: #a60f0f; /* Change as desired */
+  font-size: 24px; /* Adjust as needed */
+  font-family: Arial, sans-serif; /* Change as needed */
+  text-align: center;
+  background-attachment: fixed;
+  background-color: #007bff;
+  text-decoration: solid;
+  padding-left: 0%;
+}
+
+.user-details-column div {
+  margin-top: 30px; /* Adjust spacing between items */
+  
+}
+
+.user-details-column strong {
+  color: #007bff; /* Change as desired */
+  font-weight: bold;
+  display: inline-block;
+  width: 150px; /* Adjust label width as needed */
+}
+
+
+.user-details-column span {
+  display: inline-block;
+  margin-left: 20px; /* Adjust space between label and content */
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-details-column,
+.details-column {
+  flex: 0 0 48%;
+}
+
+.user-details-column {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.details-column {
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+input[type="text"],
+select {
+  width: calc(100% - 12px);
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: hsl(110, 100%, 50%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+strong {
+  font-weight: bold;
+}
